@@ -16,9 +16,9 @@ export default class Modal extends Component {
             tension: 180,
             friction: 12
           }}
-          from={{ opacity: 0, bgOpacity: 0, y: -50 }}
+          from={{ opacity: 0, bgOpacity: 0, y: -100 }}
           enter={{ opacity: 1, bgOpacity: 0.5, y: 0 }}
-          leave={{ opacity: 0, bgOpacity: 0, y: -50 }}
+          leave={{ opacity: 0, bgOpacity: 0, y: -100 }}
         >
           {on &&
             (styles => (
