@@ -1,10 +1,8 @@
 import React, { Component, Fragment } from 'react'
-import { Transition } from 'react-spring'
 import logo from './logo.svg'
 import './App.css'
 import { Toggle } from 'Utilities'
 import { Modal, Card } from 'Elements'
-import User from './User'
 import UserProvider from './UserProvider'
 import Drag from './Drag'
 
