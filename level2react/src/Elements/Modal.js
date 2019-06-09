@@ -13,8 +13,8 @@ export default class Modal extends Component {
         <Transition
           native
           config={{
-            tension: 180,
-            friction: 12
+            tension: 150,
+            friction: 25
           }}
           from={{ opacity: 0, bgOpacity: 0, y: -100 }}
           enter={{ opacity: 1, bgOpacity: 0.5, y: 0 }}
